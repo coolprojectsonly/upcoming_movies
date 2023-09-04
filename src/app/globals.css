@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+.imageCover {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+h3 {
+  margin: 0;
+  color: gold;
+}
+
+h4 {
+  color: lightblue;
+}
+button {
+  padding: 15px 20px;
+  border-radius: 5px;
+  z-index: 10;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+  margin: 0 20px;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
